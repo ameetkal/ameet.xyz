@@ -1,0 +1,84 @@
+.fas {
+    color: blue;
+    font-size: 3em;
+    display: flex;
+    margin-right: 5px;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #2C1A1D;
+    font-family: courier;
+}
+
+.section {
+  padding: 20px 80px 20px 80px;
+}
+
+/* .section-header {
+    text-align: center;
+    font-weight: bold;
+    margin: 12px 0px 20px 0px; */
+
+.intro {
+  background-color: #F5FBEF;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.category-button {
+  margin: 0px 30px 0px 30px;
+  padding: 30px 30px 30px 30px;
+  border-style: solid;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+#musings {
+  background-color: #dad492;
+}
+
+.musings {
+  background-color: #dad492;
+}
+
+#travels {
+  background-color: #927772;
+}
+
+.travels {
+  background-color: #927772;
+  color: #3D3D3D;
+}
+
+#filosofia {
+  background-color: #76484e;
+}
+
+.filosofia {
+  background-color: #76484e;
+  color: #A9A9A9;
+}
+
+#fiction {
+  background-color: #632843;
+}
+
+.fiction {
+  background-color: #632843;
+  color: white;
+}

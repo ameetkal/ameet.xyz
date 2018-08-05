@@ -1,90 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Bucket List</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 	<link rel="stylesheet" type="text/css" href="bucketList.css">
 </head>
+
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand" href="index.html"><img src="house.png" height="40px" width="40px"></a>
+		<i class="fas fa-dice-three"></i>
 
-<!-- Need to include the following to attribute home icon:
-<div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
-
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="about.html">i <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="writings.html">scribbles <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="bucketlist.html">bucketList <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item active">
-	        <a class="nav-link" href="projects.html">projects <span class="sr-only">(current)</span></a>
-	      </li>
-	     <!--  <li class="nav-item">
-	        <a class="nav-link" href="#">Link</a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Dropdown
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Action</a>
-	          <a class="dropdown-item" href="#">Another action</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Something else here</a>
-	        </div>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link disabled" href="#">Disabled</a>
-	      </li> -->
-	    </ul>
-	    <!-- <form class="form-inline my-2 my-lg-0">
-	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-	    </form> -->
-	  </div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">i <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="scribbles.html">scribbles <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="">bucketList <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="projects.html">projects <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="contact.html">contact <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+		</div>
 	</nav>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<p>Help me crowdsource the stuff I do. Suggest things that aren't on the list and vote for the items you endorse. I'll aim to work my way down the list/ </p>
-<div class = "toDoList">
-	<div class = "activities">
-		<h4>Activities bucket</h4>
-		<ul>
-			<li>skydiving</li>
-			<li>try oscar wilde wine</li>
-		</ul>
-		<h5>Recommend an activity!</h5>
-		<p>the form pop up that comes up should request 1) Name (textedit) 2) recommendation type (dropdown) 3) recommendation (textedit) 4) do you want to be acknowledged (checkbox) 5) primary social media profile link (textedit for url, only shows up if 'want to be acknowledged' is checked); after submission a note should write that Ameet will review the recommendation before it will show up on the site. </p>
-		<input type="text" name="activitiesText">
-		<input type="submit" name="">
+	<div class="content-body">
+		<!-- Add font awesome icons -->
+		<div class="intro section">
+			<p>Help me crowdsource the stuff I do. Suggest things that aren't on the list and vote for the items you endorse. I'll aim to work my way down the list/ </p>
+		</div>
+		<div class="toDoList section">
+			<div class="activities category">
+				<h4>bucket:do</h4>
+				<ul>
+					<li>skydiving</li>
+					<li>try oscar wilde wine</li>
+				</ul>
+				<button id="activitiesButton">Recommend</button>
+				<p>the form pop up that comes up should request 1) Name (textedit) 2) recommendation type (dropdown) 3) recommendation (textedit) 4) do you want to be acknowledged (checkbox) 5) primary social media profile link (textedit for url, only shows up if 'want
+					to be acknowledged' is checked); after submission a note should write that Ameet will review the recommendation before it will show up on the site. </p>
+			</div>
+			<div class="places category">
+				<!-- this should include a map with pins for places I've been -->
+				<h4>bucket:go</h4>
+				<p>
+					I want this to be a map - people 
+				</p>
+			</div>
+			<div class="skills category">
+				<h4>bucket:learn</h4>
+			</div>
+			<div class="books">
+				<h4>bucket:Read</h4>
+			</div>
+			<div class="movies">
+				<h4>bucket:Watch</h4>
+			</div>
+			<div class="music">
+				<h4>bucket:Listen</h4>
+			</div>
+		</div>
 	</div>
-	<div class = "places category">
-		<!-- this should include a map with pins for places I've been -->
-		<h4>Places bucket</h4>
-	</div>
-	<div class = "skills category">
-		<h4>Skills bucket</h4>
-	</div>
-	<div class = "books">
-		<h4>Books bucket</h4>
-	</div>
-	<div class = "movies">
-		<h4>Movies bucket</h4>
-	</div>
-</div>
-
+	<script type="text/javascript" src="bucketList.js"></script>
 </body>
+
 </html>
