@@ -1,0 +1,19 @@
+{
+  "name": "ameet.xyz",
+  "version": "1.0.0",
+  "description": "[check out the progress here](http://htmlpreview.github.io/?https://github.com/ameetkall/ameet.xyz/blob/master/index.html)",
+  "main": "bucketList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameetkall/ameet.xyz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameetkall/ameet.xyz/issues"
+  },
+  "homepage": "https://github.com/ameetkall/ameet.xyz#readme"
+}
