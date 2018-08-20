@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ameetkall/ameet.xyz/issues"
   },
-  "homepage": "https://github.com/ameetkall/ameet.xyz#readme"
+  "homepage": "https://github.com/ameetkall/ameet.xyz#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
