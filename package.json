@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ameetkall/ameet.xyz#readme",
   "dependencies": {
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "reactjs-popup": "^1.2.0"
   }
 }
